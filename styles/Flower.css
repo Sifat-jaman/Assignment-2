@@ -102,13 +102,35 @@ span img {
     font-weight: 400;
     color: #FFFFFF;
     padding: 19px 80px 19px 80px;
+    border: none;
 }
 .flower-description{
     font-size: 1.37rem;
     color: rgba(0, 0, 0, 0.533);
-    
 }
-
+/*flower lover section*/
+.flower-lover{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin:  200px 150px 0px 150px;
+    max-width: 1140px;
+}
+.main-heading{
+    font: size 3.12rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.description ul li {
+font-size: 1.37rem;
+color: rgba(0, 0, 0, 0.411);
+}
+.description{
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+ 
 
 /*media query*/
 @media screen and (max-width:576px) {
