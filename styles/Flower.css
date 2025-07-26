@@ -63,17 +63,55 @@ span img {
     font: size 4rem; 
 }
 .paragraph{
-    color: 50% black;
+    color:  rgba(0, 0, 0, 0.479);
     font-weight: 200;
     font: size 1.37rem; 
      text-align: left;
      align-items: flex-end;
 }
 .adout-banner{
-    margin-top:162px ;
+    margin-top: 162px;
 }
+/*flower section*/
+.flower-content{
+    text-align: center;
+    margin: 120px 150px 0px 150px;
+}
+.flower-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.flower-name{
+    font-size: 1.37rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px opx;
+}
+.flower-price{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn-primary{
+    background-color: #E95A08;
+    font-size:16px ;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 19px 80px 19px 80px;
+}
+.flower-description{
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 0.533);
+    
+}
+
+
 /*media query*/
 @media screen and (max-width:576px) {
-    
+
     
 }
