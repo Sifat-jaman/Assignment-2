@@ -111,24 +111,134 @@ span img {
 /*flower lover section*/
 .flower-lover{
     display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin:  200px 150px 0px 150px;
-    max-width: 1140px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  margin: 10px auto;
+  gap: 90px;
+  margin-top: 200px;
 }
 .main-heading{
-    font: size 3.12rem;
-    font-weight: bold;
-    color: black;
-    text-align: left;
+  color-scheme: #000000;
+  font-weight: bold;
+  font-size: 3rem;
+  max-width: 450px;
 }
 .description ul li {
-font-size: 1.37rem;
-color: rgba(0, 0, 0, 0.411);
+  max-width: 350px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #00000071;
 }
 .description{
     padding-top: 38px;
     padding-bottom: 38px;
+}
+ .main-image{
+    width: 100%;
+    height: auto;
+    display: block;
+ }
+
+ .lover-img{
+      position: relative;
+      display: inline-block;
+      width: fit-content;
+ }
+ /* latest deal styles */
+
+.latest-deal {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.latest-deal-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.latest-text {
+  font-size: 1.5rem;
+  width: 850px;
+  margin: 20px auto;
+}
+
+.latest-pic-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  width: 1120px;
+  margin: 0px auto;
+}
+.shop-1 {
+  /* border: 2px solid; */
+  border-radius: 15px;
+  width: 366px;
+  height: 206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-image: url(../assets/deal-bloom.png);
+  filter: brightness(80%);
+  background-size: cover;
+}
+
+.shop-1 a {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: #FFFFFF;
+}
+.shop-2 {
+  /* border: 2px solid; */
+  border-radius: 15px;
+  width: 366px;
+  height: 206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-image: url(../assets/deal-ana.png);
+  filter: brightness(80%);
+  background-size: cover;
+}
+
+.shop-2 a {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 400px;
+}
+.shop-3 {
+  /* border: 2px solid white; */
+  border-radius: 15px;
+  width: 753px;
+  height: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 2.50rem;
+  color: #ffffff;
+  background-image: url(../assets/deal-zabo.png);
+  filter: brightness(80%);
+  background-size: cover;
+}
+
+.shop-3 a {
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 400px;
 }
  
 
