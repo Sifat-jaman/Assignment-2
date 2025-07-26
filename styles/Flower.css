@@ -46,6 +46,7 @@ span img {
  .dark-2{
     color: #8987A1;
  }
+  
 /*banner styles*/
 .banner{
     display: flex;
@@ -240,6 +241,12 @@ span img {
   font-size: 1.25rem;
   font-weight: 400px;
 }
+@media screen and (max-width: 552px) {
+  .latest-deal-container {
+    width: 550px;
+    margin: 0 auto;
+  }
+}
 /* subscribe styles */
 .subscribe-section {
   width: 100%;
@@ -271,6 +278,15 @@ span img {
   /* width: 100%; */
   font-weight: 600;
   cursor: pointer;
+}
+@media screen and (max-width: 552px) {
+  .subscribe-section {
+    /* width: fit-content; */
+    /* margin-left: 50px; */
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    width: 1200px;
+  }
 }
 /* footer style */
 .footer-container {
